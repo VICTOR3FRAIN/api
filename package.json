@@ -1,0 +1,35 @@
+{
+  "name": "cors-proxy",
+  "version": "0.0.1",
+  "description": "A CORS proxy.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --harmony app.js",
+    "test": "node_modules/mocha/bin/mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:VICTOR3FRAIN/api.git"
+  },
+  "keywords": [
+    "cors",
+    "proxy"
+  ],
+  "author": "victor efrain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VICTOR3FRAIN/api/issues"
+  },
+  "homepage": "https://github.com/VICTOR3FRAIN/api#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
+    "compression": "^1.6.1",
+    "express": "^4.13.4",
+    "mocha": "^2.5.3",
+    "nock": "^7.2.2",
+    "rel-to-abs": "^0.1.0",
+    "request-promise": "^2.0.0",
+    "supertest": "^1.2.0"
+  }
+}
